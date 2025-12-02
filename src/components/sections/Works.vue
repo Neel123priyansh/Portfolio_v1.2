@@ -27,8 +27,7 @@
           class="heading-4 font-fancy col-span-8 w-full text-balance sm:font-semibold lg:col-span-7"
         >
           Projects that have been meticulously crafted with
-          passion and purpose over the years.
-        </p>
+          passion and purpose over the years. 
       </div>
     </div>
 
