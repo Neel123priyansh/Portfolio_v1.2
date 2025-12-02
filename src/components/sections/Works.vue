@@ -26,7 +26,7 @@
         <p
           class="heading-4 font-fancy col-span-8 w-full text-balance sm:font-semibold lg:col-span-7"
         >
-          Featured client projects that have been meticulously crafted with
+          Projects that have been meticulously crafted with
           passion and purpose over the years.
         </p>
       </div>
@@ -116,7 +116,7 @@
   import { computed, onBeforeMount, onMounted, ref, useTemplateRef } from 'vue';
   import gsap from 'gsap';
   import { useWindowSize } from '@vueuse/core';
-  import { work1, work2, work3, work4, work5 } from '@/assets/videos';
+  import { work1, work2} from '@/assets/videos';
   import { workBg1, workBg2, workBg3, workBg4, workBg5 } from '@/assets/images';
   const videoRefs = useTemplateRef<HTMLVideoElement[]>('videoRefs');
 
@@ -143,51 +143,51 @@
 
   const selectedWorksProps = [
     {
-      name: 'Madar',
-      category: 'Frontend',
-      tags: ['Vue.js', 'Tailwind', 'Gsap'],
-      videoSrc: work5,
+      name: 'Pending',
+      category: 'Frontend & Backend',
+      tags: ['React.js', 'Express.js', 'NodeJS', 'Tailwind'],
+      videoSrc: work1,
       imageBg: workBg5,
-      url: 'https://madar.services/',
+      url: 'https://pending-work.vercel.app/',
       year: '2025',
     },
     {
-      name: 'Iphone 15 Clone',
+      name: 'Space Encyclopedia',
       category: 'Frontend & Animation & 3D',
-      tags: ['Animation', '3D'],
+      tags: ['React Native', 'Expo', 'Animation', '3D'],
       videoSrc: work2,
       imageBg: workBg2,
-      url: 'https://github.com/Hetari/iphone15-pro-clone',
+      url: 'https://github.com/Neel123priyansh/Space-Encyclopedia',
       year: '2024',
     },
-    {
-      name: 'Axon',
-      category: 'Frontend & Documentation',
-      tags: ['Vue.js', 'Tailwind', 'AI'],
-      videoSrc: work3,
-      imageBg: workBg3,
-      url: 'https://github.com/Hetari/axon',
+    // {
+    //   name: 'Axon',
+    //   category: 'Frontend & Documentation',
+    //   tags: ['Vue.js', 'Tailwind', 'AI'],
+    //   videoSrc: work3,
+    //   imageBg: workBg3,
+    //   url: 'https://github.com/Hetari/axon',
 
-      year: '2024',
-    },
-    {
-      name: 'Blogy',
-      category: 'Frontend & Backend',
-      tags: ['Vue.js', 'Laravel'],
-      videoSrc: work4,
-      imageBg: workBg4,
-      url: 'https://github.com/Hetari/blog',
-      year: '2023',
-    },
-    {
-      name: 'Pyutube',
-      category: 'CLI Tool & Cross Platform',
-      tags: ['Python', 'CLI', 'Youtube'],
-      videoSrc: work1,
-      imageBg: workBg1,
-      url: 'https://github.com/hetari/pyutube',
-      year: '2024',
-    },
+    //   year: '2024',
+    // },
+    // {
+    //   name: 'Blogy',
+    //   category: 'Frontend & Backend',
+    //   tags: ['Vue.js', 'Laravel'],
+    //   videoSrc: work4,
+    //   imageBg: workBg4,
+    //   url: 'https://github.com/Hetari/blog',
+    //   year: '2023',
+    // },
+    // {
+    //   name: 'Pyutube',
+    //   category: 'CLI Tool & Cross Platform',
+    //   tags: ['Python', 'CLI', 'Youtube'],
+    //   videoSrc: work1,
+    //   imageBg: workBg1,
+    //   url: 'https://github.com/hetari/pyutube',
+    //   year: '2024',
+    // },
   ];
 
   // Reusable function to handle forward scroll animation
